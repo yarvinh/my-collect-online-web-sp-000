@@ -6,5 +6,6 @@
      while counter <= empty_array.length - 1
        empty_array[counter]
        counter += 1
+     end
    end
  end
