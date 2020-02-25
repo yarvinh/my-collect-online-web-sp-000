@@ -1,3 +1,5 @@
  def my_collect(empty_array)
-   yield(emty_array)
+   if block_given?
+     puts "Emty array"
+   end
  end
