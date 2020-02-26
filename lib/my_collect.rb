@@ -9,7 +9,7 @@ def my_collect(empty_array)
          array.push(string)
         counter += 1
       end
-      array.join(" , ")
+      array
 
     else
          puts "Emty array"
